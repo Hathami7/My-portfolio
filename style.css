@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -799,3 +800,4 @@ color: #ffffff;
   flex-wrap: nowrap; /* يمنع الانتقال للأسفل */
   justify-content: center; /* توسيط المربعات */
 }
+
