@@ -1,5 +1,3 @@
-
-
 * {
     margin: 0;
     padding: 0;
@@ -104,13 +102,27 @@
     flex-direction: column;
   }
   
-  .about .about-container {
+.about .about-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10rem;
-  }
-  
+    gap: 5rem; /* قلل الفجوة لو تحب */
+    flex-wrap: wrap; /* لو الشاشة ضيقة يلتف العمود */
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* يوسّط كل شيء داخل info-box */
+    text-align: center; /* يوسّط النص */
+}
+
+.socials {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center; /* يوسّط أيقونات السوشيال */
+}
   .about img {
     width: 30vw;
     border-radius: 50%;
@@ -186,7 +198,7 @@
     border-radius: 3rem;
   }
   
-  /----/
+
   
   .info-box {
     display: flex;
@@ -802,6 +814,9 @@ color: #ffffff;
   color: white;
   transform: translateY(-5px) scale(1.02);
 }
+
+
+
 
 
 
