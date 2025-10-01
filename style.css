@@ -1,4 +1,5 @@
 
+
 * {
     margin: 0;
     padding: 0;
@@ -185,7 +186,7 @@
     border-radius: 3rem;
   }
   
-  /*----*/
+  /----/
   
   .info-box {
     display: flex;
@@ -429,7 +430,7 @@
     color: #ffffff;
   }
   
-  .section__text__p1 {
+  .section_text_p1 {
     text-align: center;
   }
   
@@ -801,6 +802,8 @@ color: #ffffff;
   color: white;
   transform: translateY(-5px) scale(1.02);
 }
+
+
 
 
 
