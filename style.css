@@ -119,7 +119,7 @@
 }
 
 .socials {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     display: flex;
     gap: 1rem;
     justify-content: center; /* يوسّط أيقونات السوشيال */
@@ -815,6 +815,7 @@ color: #ffffff;
   color: white;
   transform: translateY(-5px) scale(1.02);
 }
+
 
 
 
