@@ -372,7 +372,7 @@
 .projects-container {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 40px;
   align-items: center;
 }
 
@@ -803,6 +803,7 @@ color: #ffffff;
   color: white;
   transform: translateY(-5px) scale(1.02);
 }
+
 
 
 
